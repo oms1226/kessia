@@ -1,9 +1,13 @@
+#-*- coding: utf-8 -*-
 import numpy as np
 import matplotlib.pyplot as plt
 import gym
 from gym.envs.registration import register
 import random
-
+'''
+#reference
+http://www.modulabs.co.kr/index.php?mid=RL4RWS&page=2&document_srl=18828
+'''
 '''
 이번 강에서 다루는 것은 Q-테이블을 합리적으로 채워나가는 방식이라고 할 수 있다. 
 한 지점에서 다음 지점으로 어떻게 움직일 것인가, 움직인 다음에 어떤 값으로 Q-테이블을 채워넣을 것인가 
