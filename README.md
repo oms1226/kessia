@@ -9,7 +9,8 @@
 ## git push -u origin master
 # google docs
 ## https://docs.google.com/spreadsheets/d/1CyQ1P1FyKV4gg8ImtPAquqUGMd3hwv9TW-JZ5rE034s/edit#gid=0
-#trouble shooting
+
+# trouble shooting
 
 ```
 C:\workspaces\kessia\q-learning\gym>git add .
