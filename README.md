@@ -22,7 +22,7 @@ rm 'q-learning/gym'
 
 # oms1226 history
 
-20180510: open-ai gym 추가하였음!
+20180510: open-ai gym is added!
 
 ```
 git clone https://github.com/openai/gym
