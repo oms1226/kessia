@@ -6,8 +6,11 @@ from gym.envs.registration import register
 import random
 
 '''
+#references
 http://www.modulabs.co.kr/index.php?mid=RL4RWS&page=2&document_srl=18824
 https://github.com/modulabs/RL4RWS/blob/master/reinforcement-learning/02_qlearning_dummy.py
+'''
+'''
 << Q-Table >>
 Q-learning에서는 앞으로 어떤 action을 취할지 결정하기 위해서 Q-table을 사용하는데,
 Q-table은 맵과 같은 모양(Frozen-Lake의 경우 4x4)으로 만들어지며
@@ -107,3 +110,24 @@ print("Success Rate : ", successRate[-1])
 plt.plot(range(len(successRate)), successRate)  # 성공률 그래프
 plt.plot(range(len(rList)), rList)  # reward 그래프
 plt.show()
+'''
+Final Q-Table
+//up, down, right, left
+[[0. 1. 0. 0.] //4*4의 첫번째 row의 첫번째
+ [0. 0. 1. 0.] //4*4의 첫번째 row의 두번째 그래서 4*4의 판에 이동이기에 총 16개의 각각 4개의 action이 있으니깐 16*4의 행렬이 생기는 것이다.
+ [0. 1. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 1. 0.]
+ [0. 0. 1. 0.]
+ [0. 1. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 0. 0.]
+ [0. 0. 1. 0.]
+ [0. 0. 0. 0.]]
+('Success Rate : ', 0.939)
+'''

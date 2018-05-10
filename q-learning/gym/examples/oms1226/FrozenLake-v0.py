@@ -1,7 +1,8 @@
 #-*- coding: utf-8 -*-
-"""
+'''
+#references
 http://www.modulabs.co.kr/index.php?mid=RL4RWS&page=2&document_srl=18798
-"""
+'''
 import gym
 env = gym.make("FrozenLake-v0")
 
