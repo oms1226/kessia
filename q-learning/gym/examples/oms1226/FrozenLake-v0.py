@@ -21,6 +21,7 @@ if False:
         action = env.action_space.sample()
         state, reward, done, _ = env.step(action)
 
+
 num_episodes = 1000
 for i in range(num_episodes) : # 학습을 num_episodes 만큼 시키면서 업데이트
     env.reset()
