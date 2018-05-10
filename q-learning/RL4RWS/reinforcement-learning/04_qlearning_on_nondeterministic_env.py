@@ -1,8 +1,12 @@
+#-*- coding: utf-8 -*-
 import numpy as np
 import matplotlib.pyplot as plt
 import gym
 import random
-
+'''
+#references
+http://www.modulabs.co.kr/index.php?mid=RL4RWS&page=2&document_srl=18834
+'''
 '''
 << Q-Learning on Stochastic World >>
 이번 강에서는 Stochastic / Nondeterministic한 환경에서의 Q-Learning 방식을 소개한다.
